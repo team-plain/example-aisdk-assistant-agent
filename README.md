@@ -1,4 +1,4 @@
-# example-aisdk-agent
+# example-aisdk-assistant-agent
 
 A Plain custom agent built on the [Vercel AI SDK](https://ai-sdk.dev), with no framework in between.
 
@@ -13,7 +13,7 @@ The protocol is documented [here](https://www.plain.com/docs/agents/internal-age
    `threadDiscussionMessage:create`, `threadDiscussionMessage:edit`, `thread:read` and
    `thread:reply`.
 
-2. Copy `.env.example` to `.env` in this directory and fill in `PLAIN_API_KEY`,
+2. Copy `.env.example` to `.env` at the repository root and fill in `PLAIN_API_KEY`,
    `PLAIN_WEBHOOK_SECRET` from
    [Settings → Request Signing](https://app.plain.com/~/settings/request-signing/), and
    `AI_GATEWAY_API_KEY`.

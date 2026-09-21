@@ -9,7 +9,7 @@ export const PORT = 8082;
  * The events this agent answers. Subscribe your webhook target to both.
  *
  * The approval event is listed because Plain sends it, not because this package acts on it: the
- * turn is held open in memory and polls instead. `example-eve-agent` handles it as an event.
+ * turn is held open in memory and polls instead. `example-eve-assistant-agent` handles it as an event.
  */
 export const AGENT_EVENTS = [
   "discussion.message_created",

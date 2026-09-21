@@ -404,7 +404,7 @@ type Decision = { denied: boolean; note: string | null };
  * Waits for a person to decide, by polling.
  *
  * Polling keeps the flow in one function. The approval webhooks are the better choice once a turn
- * can outlive the process, and `example-eve-agent` uses those.
+ * can outlive the process, and `example-eve-assistant-agent` uses those.
  */
 async function waitForApproval(
   plain: Plain,

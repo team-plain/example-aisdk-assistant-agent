@@ -81,7 +81,7 @@ async function check(plain: Plain, apiURL: string): Promise<void> {
 }
 
 function help(): void {
-  console.log("example-aisdk-agent  a Plain agent on the Vercel AI SDK\n");
+  console.log("example-aisdk-assistant-agent  a Plain agent on the Vercel AI SDK\n");
   console.log("It answers in a Sidekick discussion: finds the thread, reads it, searches the");
   console.log("workspace knowledge, and proposes a reply for a person to approve. A discussion");
   console.log("opened on no thread still works, because it can search the queue.\n");
