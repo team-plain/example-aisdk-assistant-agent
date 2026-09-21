@@ -4,6 +4,8 @@ A Plain custom agent built on the [Vercel AI SDK](https://ai-sdk.dev), with no f
 
 The protocol is documented [here](https://www.plain.com/docs/agents/internal-agent).
 
+This example was `example-aisdk-agent` in `team-plain/example-internal-agents` until it was split into this repository. The package name changed with it, to match the repository.
+
 ## Setting it up
 
 1. Create a machine user under [Settings → Machine users](https://app.plain.com/~/settings/machine-users/)
