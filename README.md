@@ -8,8 +8,7 @@ This example was `example-aisdk-agent` in `team-plain/example-internal-agents` u
 
 ## Setting it up
 
-1. Create a machine user under [Settings → Machine users](https://app.plain.com/~/settings/machine-users/)
-   and give it an API key. Set its **Type** to **Connected agent**.
+1. [Create an agent machine user](https://www.plain.com/docs/agents) and give it an API key.
 
    Permissions: `threadDiscussion:read`, `threadDiscussion:edit`,
    `threadDiscussionMessage:create`, `threadDiscussionMessage:edit`, `thread:read` and
